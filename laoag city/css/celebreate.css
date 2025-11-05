@@ -1,0 +1,244 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+
+
+
+
+.navbar img {
+    width: 50px;
+    height: auto;
+}
+
+
+.header{
+    display: flex;
+     background-image:url(../images/capitoll.png);
+     align-items: center;   
+     width: 100%;
+     height: 500px;
+     background-size: cover;
+     background-position-y: 35%
+
+}
+
+
+.header .texthead {
+    color: white;
+    margin-left: 100px;
+}
+
+
+.header h1{
+    font-size: 48px; 
+}
+
+
+.header p{
+    font-size: 20px; 
+}
+
+
+
+.explore{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    background-color: blue; 
+    height: 50px;
+    width: 120px;
+    border-radius: 5px; 
+   
+}
+
+.explore ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+   
+}
+
+
+
+.explore a {
+   text-decoration: none;
+   color: white;  
+   font-weight: bold;      
+
+
+}
+
+
+
+
+
+.navbar img {
+    width: 50px;
+    height: auto;
+}
+
+
+.navbar{
+     
+    display: flex;
+    background-color: rgb(38, 34, 34);
+    width: 100%;
+    position: fixed;
+}
+
+
+.navbar ul {
+     list-style: none;
+     display:flex;
+     justify-content: space-evenly;     
+     flex-flow: wrap-reverse;
+   
+}
+
+
+.navbar ul li a {
+
+     display: block;
+     padding: 14px 20px;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     transition: background 0.3    , color 0.3s;
+     
+}
+
+
+.navbar ul li a:hover {
+     background: red;
+     color:rgb(255, 255, 255);
+      
+}
+
+
+
+.background{
+    background-image: url("../images/brdge.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    min-height: 100vh;     
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+   
+
+}
+
+
+
+
+.imagess h1{
+     font-weight: bold;
+     margin-top: 60px;
+}
+
+
+.imagess p{
+     font-weight: bold;
+     font-size: 26px;
+     margin-bottom: 30px;
+     text-align: justify;
+}
+
+
+
+.imagess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;      
+    color: white; 
+    padding: 0 70px;   
+    font-size: 22px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+     margin-bottom: 90px;   
+}
+
+
+
+.imagess img{
+    height: auto;
+    width: 50%;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    box-shadow: -2px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.imagess img:hover{
+     transform: scale(1.08);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    flex-wrap: wrap;
+    background-color:  rgb(38, 34, 34);
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
